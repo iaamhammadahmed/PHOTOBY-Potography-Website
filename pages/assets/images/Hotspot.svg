@@ -1,0 +1,13 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="share_drop" clip-path="url(#clip0_234_366)">
+<path id="Vector" d="M64 0H0V64H64V0Z" fill="white" fill-opacity="0.01"/>
+<path id="Vector_2" d="M13.8205 55.5096C8.59861 50.6416 5.33325 43.7021 5.33325 36C5.33325 21.2724 17.2723 9.33334 31.9999 9.33334C46.7275 9.33334 58.6666 21.2724 58.6666 36C58.6666 43.7021 55.4013 50.6416 50.1794 55.5096" stroke="black" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M20.1834 48.6812C16.7893 45.5171 14.6667 41.0064 14.6667 36C14.6667 26.4271 22.4271 18.6667 32.0001 18.6667C41.573 18.6667 49.3334 26.4271 49.3334 36C49.3334 41.0064 47.2109 45.5171 43.8167 48.6812" stroke="black" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M26.5461 41.8529C24.9796 40.3925 24 38.3107 24 36C24 31.5817 27.5817 28 32 28C36.4183 28 40 31.5817 40 36C40 38.3107 39.0204 40.3925 37.4539 41.8529" stroke="black" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_234_366">
+<rect width="64" height="64" fill="white"/>
+</clipPath>
+</defs>
+</svg>

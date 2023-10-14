@@ -1,0 +1,18 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.hr {
+  width: 56px;
+  height: 1px;
+  border: 0 none;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 22px;
+  margin-bottom: 20px;
+  background-color: black;
+}
+
+.des {
+  border: 1px solid black;
+}

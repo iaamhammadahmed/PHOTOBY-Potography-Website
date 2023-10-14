@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ABOUT</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="all.css" />
+  <link rel="shortcut icon" href="./assets/images/About Text.svg" type="image/x-icon">
+</head>
+
+<body class="bg-[#F2F2F2]">
+  <div class="bg-wheat p-0.5">
+    <header class="mx-5 my-5 md:mx-10 my-5">
+      <nav class="
+                  flex flex-wrap
+                  items-center
+                  justify-between
+                  w-full
+                  py-4
+                  md:py-0
+                  px-4
+                  text-lg text-gray-700
+                ">
+        <div class="flex gap-16">
+          <div class="flex gap-2 items-center cursor-pointer">
+            <p class="font-semibold text-#000;">PHOTOBY</p>
+            <img src="./assets/images/Icon Header.svg" alt="Header Svg" />
+          </div>
+          <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
+            <ul class="
+                      pt-4
+                      text-base text-[#FFF]
+                      md:flex
+                      md:justify-between 
+                      md:pt-0">
+              <li>
+                <a class="md:p-4 py-2 block text-black hover:text-[#BBBBCB]"
+                  href="http://127.0.0.1:5500/index.html">Home</a>
+              </li>
+              <li>
+                <a class="md:p-4 py-2 block text-black hover:text-[#BBBBCB]"
+                  href="http://127.0.0.1:5500/pages/about.html">ABOUT</a>
+              </li>
+              <li>
+                <a class="md:p-4 py-2 block text-black  hover:text-[#BBBBCB]"
+                  href="http://127.0.0.1:5500/pages/servicesnew.html">SERVICES</a>
+              </li>
+              <li>
+                <a class="md:p-4 py-2 block text-black hover:text-[#BBBBCB]"
+                  href="http://127.0.0.1:5500/pages/projects.html">PROJECT</a>
+              </li>
+              <li>
+                <a class="md:p-4 py-2 block text-black hover:text-[#BBBBCB]"
+                  href="http://127.0.0.1:5500/pages/contact.html">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="flex gap-3">
+          <div class="flex gap-2">
+            <img class="cursor-pointer" src="./assets/images/Facebook.svg" alt="Facebook.svg" />
+            <img class="cursor-pointer" src="./assets/images/Twitter.svg" alt="Twitter.svg" />
+            <img class="cursor-pointer" src="./assets/images/Linkedin.svg" alt="Linkedin.svg" />
+          </div>
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" id="menu-button" class="h-16 w-5 cursor-pointer md:hidden block"
+              fill="none" viewBox="0 0 24 24" stroke="black">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </div>
+        </div>
+
+      </nav>
+    </header>
+  </div>
+  <script>
+    const button = document.querySelector('#menu-button');
+    const menu = document.querySelector('#menu');
+
+
+    button.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+  </script>
+  <div class="pt-16 px-10">
+    <div class="flex py-2 gap-3">
+      <div>
+        <img class="pt-1.5" src="./assets/images/Text1.svg" alt="CRAFTING" />
+      </div>
+      <div>
+        <h2 class="text-5xl tracking-normal font-bold hidden md:block">
+          CRAFTING DIGITAL <br />EXPERIENCE
+        </h2>
+        <h2 class="sm:block md:hidden text-3xl font-bold">
+          BRAND <br />RECOGNITION
+        </h2>
+      </div>
+    </div>
+    <div class="flex justify-between md:hidden pt-10 pb-5">
+      <div class="flex justify-between gap-3">
+        <h2 class="mt-2 text-xl font-medium">PHOTOGRAPHY</h2>
+        <hr class="hr" />
+
+        <img class="mt-3.5 border-2 border-black w-[19px] h-[19px] rounded-2xl cursor-pointer"
+          src="./assets/images/Explore More.svg" alt="Responsive" />
+      </div>
+      <div class="flex gap-2 pt-3">
+        <img class="mb-2" src="./assets/images/Responsive.svg" alt="Responsive" />
+        <h2>NEXT</h2>
+      </div>
+    </div>
+    <div>
+      <img class="hidden md:flex" src="./assets/images/Hero About.png" alt="Hero About png" />
+      <img class="md:hidden w-full" src="./assets/images/Reaponsive First Image.png" alt="Hero png" />
+    </div>
+  </div>
+  <div class="flex justify-between px-10 pt-10">
+    <div class="flex gap-3 py-1">
+      <img class="w-full" src="./assets/images/About Text.svg" alt="About svg" />
+      <h2 class="text-xl font-bold md:text-3xl font-semibold">ABOUT</h2>
+    </div>
+    <h2 class="text-xl md:text-3xl font-semibold">(1.1)</h2>
+  </div>
+  <div class="grid grid-cols-1 md:grid-cols-2">
+    <div class="px-9">
+      <div class="flex gap-5">
+        <h2 class="text-xl md:text-7xl font-bold py-9">PHOTOBY</h2>
+        <img class="w-4 md:w-11" src="./assets/images/Text2.svg" alt="Text2" />
+      </div>
+      <div>
+        <img src="./assets/images/About.png" alt="ABOUT png" />
+      </div>
+    </div>
+    <div>
+      <div class="py-5 px-10">
+        <p class="sm:text-base md:text-lg font-medium">
+          Lorem ipsum dolor sit amet consectetur. Nunc lacus imperdiet
+          adipiscing urna. Amet aenean ac faucibus varius curabitur consequat
+          pellentesque morbi. Tincidunt eleifend morbi mauris nascetur porta
+          vulputate. At egestas mi senectus nam aliquam vivamus. Egestas non
+          sit pulvinar faucibus tincidunt at quis morbi tortor. Ultrices
+          egestas rhoncus in justo massa consectetur est ut magna. Eget vitae
+          duis a aliquam condimentum id non scelerisque.
+        </p>
+      </div>
+      <div class="py-5 px-10">
+        <button class="rounded-full bg-black hover:bg-slate-700 text-white text-base px-8 py-3.5">
+          Learn more
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 md:grid-cols-6 px-11 py-12 md:py-32 gap-5">
+    <img class="w-auto h-auto md:w-auto h-auto md:pt-5" src="./assets/images/Foxhub.png" alt="Fox Hub" />
+    <img class="w-auto h-auto md:w-auto h-auto md:pt-5" src="./assets/images/Goldline.png" alt="Goldline" />
+    <img class="w-auto h-auto md:w-auto h-auto pt-3" src="./assets/images/Solaytic.png" alt="Solaytic" />
+    <img class="w-auto h-auto pt-5" src="./assets/images/Earth2.0.png" alt="Earth 2.0" />
+    <img class="w-auto h-auto" src="./assets/images/Ztos.png" alt="Ztos" />
+    <img class="w-auto h-auto pt-4" src="./assets/images/Utosia.png" alt="Utosia" />
+  </div>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-32">
+    <div class="px-20 py-20 bg-white">
+      <h2 class="text-6xl font-bold text-center">200</h2>
+      <p class="text-lg font-semibold text-center">Visualisation</p>
+    </div>
+    <div class="bg-black px-20 py-20">
+      <h2 class="text-6xl text-white text-center">7</h2>
+      <p class="text-lg font-semibold text-white text-center">
+        YEARS EXPERIENCE
+      </p>
+    </div>
+    <div class="px-20 py-20 bg-white">
+      <h2 class="text-6xl font-bold text-center">32</h2>
+      <p class="text-lg font-semibold text-center">AWWARDS</p>
+    </div>
+    <div class="px-20 py-20 bg-black">
+      <h2 class="text-6xl font-bold text-white text-center">16</h2>
+      <p class="text-lg font-semibold text-white text-center">
+        PHOTOGRAPHERS
+      </p>
+    </div>
+  </div>
+  <hr class="hidden md:flex [1250px] h-[1px] border-0 mr-[50px] ml-[65px] mt-[20px] mb-[90px] bg-black" />
+  <div class="flex justify-between px-10 pb-12">
+    <div class="flex gap-3 py-2">
+      <img class="pb-1" src="./assets/images/About Text.svg" alt="Services svg" />
+      <h2 class="text-xl md:text-3xl font-semibold">Services</h2>
+    </div>
+    <div class="flex gap-2 sm:gap-10">
+      <p class="text-sm md:text-2xl py-3">Explore services</p>
+      <img class="gap-1 cursor-pointer" src="./assets/images/Explore More.svg" alt="Explore More" />
+      <h2 class="text-xl font-semibold md:text-3xl font-semibold pt-2">
+        (1.2)
+      </h2>
+    </div>
+  </div>
+  <div class="grid grid-cols-1 px-12 gap-5 md:grid-cols-2 lg:grid-cols-4">
+    <div>
+      <img class="bg-slate-200 p-3 mt-3 rounded-full" src="./assets/images/Dropbox.svg" alt="Dropbox" />
+      <h2 class="pt-10">STRATEGY</h2>
+      <p class="pt-10">
+        Lorem ipsum dolor sit amet consectetur. Nunc lacus imperdiet
+        adipiscing urna. Amet aenean ac faucibus varius curabitur consequat
+        pellentesque morbi.
+      </p>
+    </div>
+    <div>
+      <img class="bg-slate-200 p-3 mt-3 rounded-3xl" src="./assets/images/Switch.svg" alt="Switch" />
+      <h2 class="pt-10">STRATEGY</h2>
+      <p class="pt-10">
+        Lorem ipsum dolor sit amet consectetur. Nunc lacus imperdiet
+        adipiscing urna. Amet aenean ac faucibus varius curabitur consequat
+        pellentesque morbi.
+      </p>
+    </div>
+    <div>
+      <img class="bg-slate-200 p-3 mt-3 rounded-full" src="./assets/images/Hotspot.svg" alt="Hotspot" />
+      <h2 class="pt-7">STRATEGY</h2>
+      <p class="pt-9">
+        Lorem ipsum dolor sit amet consectetur. Nunc lacus imperdiet
+        adipiscing urna. Amet aenean ac faucibus varius curabitur consequat
+        pellentesque morbi.
+      </p>
+    </div>
+    <div>
+      <img class="bg-slate-200 p-3 mt-3 rounded-2xl" src="./assets/images/Pc.svg" alt="Pc" />
+      <h2 class="pt-7">STRATEGY</h2>
+      <p class="pt-7">
+        Lorem ipsum dolor sit amet consectetur. Nunc lacus imperdiet
+        adipiscing urna. Amet aenean ac faucibus varius curabitur consequat
+        pellentesque morbi.
+      </p>
+      <img class="md:hidden pt-10 w-full" src="./Assests/Responsive Second Image.png" alt="Responsive Second Image" />
+    </div>
+  </div>
+  <hr class="hidden md:flex w-[1250px] h-[1px] border-0 mr-[50px] ml-[65px] mt-[200px] mb-[90px] bg-black" />
+  <div class="flex justify-between px-10 pb-12 pt-10">
+    <div class="flex gap-3">
+      <img src="./assets/images/About Text.svg" alt="TEAM svg" />
+      <h2 class="text-lg font-semibold md:text-3xl font-semibold">TEAM</h2>
+    </div>
+    <h2 class="text-xl font-semibold md:text-3xl font-semibold">(1.3)</h2>
+  </div>
+  <div class="sm:grid grid-cols-1 px-10 gap-5 pb-32 md:grid-cols-2 lg:grid-cols-3">
+    <div>
+      <div>
+        <img class="w-full" src="./assets/images/Team 1.png" alt="Team1" />
+      </div>
+      <div class="flex justify-between pt-2">
+        <div>
+          <h2>JOHN DOE</h2>
+        </div>
+        <div class="flex gap-2 pt-1 pb-5">
+          <img src="./assets/images/Facebook Team.svg" alt="Facebook" />
+          <img src="./assets/images/Twitter Team.svg" alt="Twitter" />
+          <img src="./assets/images/Linkedin Team.svg" alt="Linkedin" />
+        </div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <img class="w-full" src="./assets/images/Team 2.png" alt="Team2" />
+      </div>
+      <div class="flex justify-between pt-2">
+        <div>
+          <h2>JOHN DOE</h2>
+        </div>
+        <div class="flex gap-2 pt-1 pb-5">
+          <img src="./assets/images/Facebook Team.svg" alt="Facebook" />
+          <img src="./assets/images/Twitter Team.svg" alt="Twitter" />
+          <img src="./assets/images/Linkedin Team.svg" alt="Linkedin" />
+        </div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <img class="w-full" src="./assets/images/Team 3.png" alt="Team3" />
+      </div>
+      <div class="flex justify-between pt-2">
+        <div>
+          <h2>JOHN DOE</h2>
+        </div>
+        <div class="flex gap-2 pt-1 pb-5">
+          <img src="./assets/images/Facebook Team.svg" alt="Facebook" />
+          <img src="./assets/images/Twitter Team.svg" alt="Twitter" />
+          <img src="./assets/images/Linkedin Team.svg" alt="Linkedin" />
+        </div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <img class="w-full" src="./assets/images/Team 4.png" alt="Team4" />
+      </div>
+      <div class="flex justify-between pt-2">
+        <div>
+          <h2>JOHN DOE</h2>
+        </div>
+        <div class="flex gap-2 pt-1 pb-5">
+          <img src="./assets/images/Facebook Team.svg" alt="Facebook" />
+          <img src="./assets/images/Twitter Team.svg" alt="Twitter" />
+          <img src="./assets/images/Linkedin Team.svg" alt="Linkedin" />
+        </div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <img class="w-full" src="./assets/images/Team 5.png" alt="Team5" />
+      </div>
+      <div class="flex justify-between pt-2">
+        <div>
+          <h2>JOHN DOE</h2>
+        </div>
+        <div class="flex gap-2 pt-1 pb-5">
+          <img src="./assets/images/Facebook Team.svg" alt="Facebook" />
+          <img src="./assets/images/Twitter Team.svg" alt="Twitter" />
+          <img src="./assets/images/Linkedin Team.svg" alt="Linkedin" />
+        </div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <img class="w-full" src="./assets/images/Team 6.png" alt="Team6" />
+      </div>
+      <div class="flex justify-between pt-2">
+        <div>
+          <h2>JHON DOE</h2>
+        </div>
+        <div class="flex gap-2 pt-1 pb-5 md:pt-1 pb-5">
+          <img src="./assets/images/Facebook Team.svg" alt="Facebook" />
+          <img src="./assets/images/Twitter Team.svg" alt="Twitter" />
+          <img src="./assets/images/Linkedin Team.svg" alt="Linkedin" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="bg-black py-12 px-11">
+      <div>
+        <div class="grid grid-cols-1 md:grid-cols-2">
+          <div class="flex gap-5 my-3">
+            <h2 class="text-white text-2xl font-bold md:text-5xl md:font-semibold">
+              PHOTOBY
+            </h2>
+            <img class="hidden md:flex w-[45px] h-[46px]" src="./assets/images/Icon Footer.svg" alt="Footer Svg" />
+            <img class="md:hidden w-4" src="./assets/images/Footer Main.svg" alt="Footer" />
+          </div>
+          <p class="text-white text-1xl md:text-xl font-semibold">
+            Lorem ipsum dolor sit amet consectetur. <br />Sit volutpat metus
+            quis ut tellus pellentesque pharetra cursus.
+          </p>
+        </div>
+      </div>
+      <div class="bg-black">
+        <div class="py-11 flex gap-3">
+          <img src="./assets/images/Footer Text.svg" alt="Footer Text Svg" />
+          <h2 class="text-white text-lg">STAY IN THE KNOW</h2>
+        </div>
+        <div class="md:flex justify-between">
+          <div class="grid grid-cols-1 gap-42">
+            <div>
+              <div class="flex justify-between border-b-2 border-b-white">
+                <input
+                  class="sm:w-full px-2 lg:w-full placeholder:font-bold placeholder:text-white md:px-3 text-white bg-black"
+                  id="Email" type="text" placeholder="EMAIL ADRESS" />
+                <img class="lg:my-2" src="./assets/images/Email text.svg" alt="Email Svg" />
+              </div>
+            </div>
+          </div>
+          <div class="grid grid-cols-3 gap-12 pt-10 pb-5">
+            <div class="text-white">
+              <h2 class="text-lg my-5">SOCIAL</h2>
+              <p class="text-sm">Instagramm</p>
+              <p class="text-sm">Twitter</p>
+              <p class="text-sm">Linkedin</p>
+              <p class="text-sm">Facebook</p>
+            </div>
+            <div class="text-white">
+              <h2 class="text-lg my-5">PAGES</h2>
+              <div class="flex flex-col text-sm">
+                <a class="cursor-pointer" href="http://127.0.0.1:5500/home.html">Home</a>
+                <a class="cursor-pointer" href="http://127.0.0.1:5500/pages/about.html">About</a>
+                <a class="cursor-pointer" href="http://127.0.0.1:5500/pages/services.html">Services</a>
+                <a class="cursor-pointer" href="http://127.0.0.1:5500/pages/projects.html">Project</a>
+                <a class="cursor-pointer" href="http://127.0.0.1:5500/pages/contact.html">Contact</a>
+              </div>
+            </div>
+            <div class="text-white">
+              <h2 class="text-lg my-5">OFFICES</h2>
+              <p class="text-sm">Instagramm</p>
+              <p class="text-sm">Twitter</p>
+              <p class="text-sm">Linkedin</p>
+              <p class="text-sm">Facebook</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pt-10">
+        <h2 class="text-white">Copright © All Right Reserved</h2>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

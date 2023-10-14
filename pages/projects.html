@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PROJECTS</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="all.css" />
+  <link rel="shortcut icon" href="./assets/images/About Text.svg" type="image/x-icon">
+</head>
+
+<body class="bg-[#F2F2F2] px-7">
+  <div class="bg-wheat p-0.5">
+    <header class="mx-5 my-5 md:mx-3 my-5">
+      <nav class="
+                  flex flex-wrap
+                  items-center
+                  justify-between
+                  w-full
+                  py-4
+                  md:py-0
+                  px-4
+                  text-lg text-gray-700
+                ">
+        <div class="flex gap-16">
+          <div class="flex gap-2 items-center cursor-pointer">
+            <p class="font-semibold text-#000;">PHOTOBY</p>
+            <img src="./assets/images/Icon Header.svg" alt="Header Svg" />
+          </div>
+          <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
+            <ul class="
+                      pt-4
+                      text-base text-[#FFF]
+                      md:flex
+                      md:justify-between 
+                      md:pt-0">
+              <li>
+                <a class="md:p-4 py-2 block text-black hover:text-[#BBBBCB]"
+                  href="http://127.0.0.1:5500/index.html">Home</a>
+              </li>
+              <li>
+                <a class="md:p-4 py-2 block text-black hover:text-[#BBBBCB]"
+                  href="http://127.0.0.1:5500/pages/about.html">ABOUT</a>
+              </li>
+              <li>
+                <a class="md:p-4 py-2 block text-black  hover:text-[#BBBBCB]"
+                  href="http://127.0.0.1:5500/pages/servicesnew.html">SERVICES</a>
+              </li>
+              <li>
+                <a class="md:p-4 py-2 block text-black hover:text-[#BBBBCB]"
+                  href="http://127.0.0.1:5500/pages/projects.html">PROJECT</a>
+              </li>
+              <li>
+                <a class="md:p-4 py-2 block text-black hover:text-[#BBBBCB]"
+                  href="http://127.0.0.1:5500/pages/contact.html">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="flex gap-3">
+          <div class="flex gap-2">
+            <img class="cursor-pointer" src="./assets/images/Facebook.svg" alt="Facebook.svg" />
+            <img class="cursor-pointer" src="./assets/images/Twitter.svg" alt="Twitter.svg" />
+            <img class="cursor-pointer" src="./assets/images/Linkedin.svg" alt="Linkedin.svg" />
+          </div>
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" id="menu-button" class="h-16 w-5 cursor-pointer md:hidden block"
+              fill="none" viewBox="0 0 24 24" stroke="black">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </div>
+        </div>
+
+      </nav>
+    </header>
+  </div>
+  <script>
+    const button = document.querySelector('#menu-button');
+    const menu = document.querySelector('#menu');
+
+
+    button.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+  </script>
+  <div class=" flex gap-2 mt-16">
+    <div class="flex justify-center w-5">
+      <img src="./assets/images/Ellipse 5.svg" alt="Ellipse" />
+    </div>
+    <div>
+      <p class="text-5xl font-bold">PROJECTS</p>
+    </div>
+  </div>
+  <div class=" md:flex mt-16">
+    <div class=" flex">
+      <p class="flex items-center text-4xl font-medium">
+        SARA <br />KINGSTON <br />
+        PHOTOSESSION
+      </p>
+    </div>
+    <div class=" w-full">
+      <div class=" flex gap-5">
+        <p>January 10 , 2021</p>
+        <div class="flex gap-5">
+          <img src="./assets/images/Ellipse 5.svg" alt="Ellipse" />
+          <p>Decoration</p>
+        </div>
+      </div>
+      <div class="bg-[url('assets/images/bg1.png')] relative w-full py-80 bg-center bg-cover">
+        <div class="sm:flex absolute bottom-0 right-0 bg-[#FFF] py-8 px-9 gap-5 hidden cursor-pointer">
+          <p>See Project</p>
+          <img src="./assets/images/Frame 28.svg" class="w-7 rounded-full border-black border-2 p-1" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="md:flex flex-row-reverse mt-20">
+    <div class=" flex">
+      <p class="flex items-center text-4xl font-medium">
+        SARA <br />KINGSTON <br />
+        PHOTOSESSION
+      </p>
+    </div>
+    <div class=" w-full sm:content-start">
+      <div class=" flex flex-row-reverse gap-5">
+        <p class="flex order-last">January 10 , 2021</p>
+
+        <div class="flex gap-5">
+          <img src="/assets/images/Ellipse 5.svg" alt="" />
+          <p>Decoration</p>
+        </div>
+      </div>
+      <div class="relative bg-[url('assets/images/bg2.png')] w-full py-80 bg-center bg-cover">
+        <div class="sm:flex absolute bottom-0 left-0 bg-[#FFF] py-8 px-9 gap-5 hidden cursor-pointer">
+          <p>See Project</p>
+          <img src="./assets/images/Frame 28.svg" class="w-7 rounded-full border-black border-2 p-1" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="md:flex mt-28">
+    <div class=" flex">
+      <p class="flex items-center text-4xl font-medium">
+        SARA <br />KINGSTON <br />
+        PHOTOSESSION
+      </p>
+    </div>
+    <div class=" w-full">
+      <div class=" flex gap-5">
+        <p>January 10 , 2021</p>
+        <div class="flex gap-5">
+          <img src="./assets/images/Ellipse 5.svg" alt="Ellipse" />
+          <p>Decoration</p>
+        </div>
+      </div>
+      <div class=" relative bg-[url('assets/images/bg3.png')] w-full py-80 bg-center bg-cover">
+        <div class="sm:flex absolute bottom-0 right-0 bg-[#FFF] py-8 px-9 gap-5 hidden cursor-pointer">
+          <p>See Project</p>
+          <img src="./assets/images/Frame 28.svg" class="w-7 rounded-full border-black border-2 p-1" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="child-4 md:flex flex-row-reverse mt-28">
+    <div class=" flex">
+      <p class="flex items-center text-4xl font-medium">
+        SARA <br />KINGSTON <br />
+        PHOTOSESSION
+      </p>
+    </div>
+    <div class=" w-full">
+      <div class=" flex flex-row-reverse gap-5">
+        <p class="flex order-last">January 10 , 2021</p>
+
+        <div class="flex gap-5">
+          <img src="./assets/images/Ellipse 5.svg" alt="Ellipse" />
+          <p>Decoration</p>
+        </div>
+      </div>
+      <div class=" relative bg-[url('assets/images/bg4.png')] w-full py-80 bg-center bg-cover">
+        <div class="sm:flex absolute bottom-0 left-0 bg-[#FFF] py-8 px-9 gap-5 hidden cursor-pointer">
+          <p>See Project</p>
+          <img src="./assets/images/Frame 28.svg" class="w-7 rounded-full border-black border-2 p-1" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="child-2 md:flex mt-28">
+    <div class=" flex">
+      <p class="flex items-center text-4xl font-medium">
+        SARA <br />KINGSTON <br />
+        PHOTOSESSION
+      </p>
+    </div>
+    <div class=" w-full">
+      <div class=" flex gap-5">
+        <p>January 10 , 2021</p>
+        <div class="flex gap-5">
+          <img src="/assets/images/Ellipse 5.svg" alt="" />
+          <p>Decoration</p>
+        </div>
+      </div>
+      <div class="relative bg-[url('assets/images/bg5.png')] w-full h-full py-80 bg-center bg-cover">
+        <div class="sm:flex absolute bottom-0 right-0 bg-[#FFF] py-8 px-9 gap-5 hidden cursor-pointer">
+          <p>See Project</p>
+          <img src="./assets/images/Frame 28.svg" class="w-7 rounded-full border-black border-2 p-1" />
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
