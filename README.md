@@ -1,4 +1,4 @@
-<b>Follow And Ping Me On Following: <br><br></b>
+# Follow And Ping Me On Following:
 Instragram: https://www.instagram.com/iaamhammadahmed<br><br>
 Facebook: https://www.facebook.com/iaamhammadahmed<br><br>
 Twitter: https://www.twitter.com/iaamhammadahmed<br><br>
